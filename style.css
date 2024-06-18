@@ -26,9 +26,11 @@ figcaption{
   align-content: center;
 }
 #details{ 
-  float: left;
-  position: absolute;
+  display: flex;
+}
+div{
   background-color: red;
-  border-width: 25%;
   text-align: center;
+  float: left;
+  width: 25%;
 }
